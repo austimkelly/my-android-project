@@ -1,0 +1,3 @@
+[submodule "libs/my-android-core"]
+	path = libs/my-android-core
+	url = git@github.com:austimkelly/my-android-core.git
