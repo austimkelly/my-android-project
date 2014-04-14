@@ -1,1 +1,3 @@
 include ':MyProject'
+include 'libs:my-android-core:MyLibraryProject:MyLibrary'
+project (':libs:my-android-core:MyLibraryProject:MyLibrary').projectDir = new File(settingsDir, '../libs/my-android-core/MyLibraryProject/MyLibrary')
